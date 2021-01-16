@@ -25,6 +25,7 @@ class AppliedJobs extends Component {
                   <tr key = {job.id}>
                     <td>{job.job_id}</td>
                     <td>{job.jobseeker_id}</td>
+                    <td>Action</td>
                   </tr>
                 )
               }
